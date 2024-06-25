@@ -16,14 +16,3 @@ Files Included
 index.html: Contains the structure of the game using HTML.
 style.css: Defines the styles for the game using CSS.
 script.js: Implements the game logic using JavaScript.
-Screenshots
-(Optional: Include screenshots of your game interface here)
-
-Demo
-(Optional: Provide a link to a live demo of your game, if available)
-
-Contributing
-Feel free to contribute to the development of this project by submitting pull requests. Bug fixes, improvements to code structure, and additional features are welcome!
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
