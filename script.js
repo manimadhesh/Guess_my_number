@@ -36,7 +36,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
     document.querySelector("body").style.backgroundColor = "#60b347";
     document.querySelector(".number").style.width = "30rem";
-
+    document.querySelector(".blinking").textContent = "🎉 Congrats 🎉";
     if (score > highscore) {
       highscore = score;
       document.querySelector(".highscore").textContent = highscore;
@@ -93,6 +93,7 @@ document.querySelector(".again").addEventListener("click", function () {
 
   document.querySelector("body").style.backgroundColor = "#222";
   document.querySelector(".number").style.width = "15rem";
+  document.querySelector(".blinking").textContent = "Guess My Number!";
 });
 
 ///////////////////////////////////////

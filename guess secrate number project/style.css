@@ -55,6 +55,27 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@keyframes blink {
+  0% {
+    color: rgb(183, 0, 255);
+  }
+  25% {
+    color: rgb(119, 0, 255);
+  }
+  50% {
+    color: rgb(255, 255, 255);
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: rgb(0, 255, 174);
+  }
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}
 
 .number {
   background: #eee;
