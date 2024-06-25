@@ -117,6 +117,9 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+.guess::placeholder {
+  font-size: 1.6vh;
+}
 
 /* Media Query for mobile devices */
 @media (max-width: 768px) {
